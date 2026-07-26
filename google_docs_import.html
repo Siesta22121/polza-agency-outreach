@@ -1,0 +1,58 @@
+<html><head><meta charset="utf-8"><title>Polza Agency — Итоговый отчёт</title></head>
+<body>
+<h1>Polza Agency — B2B Outreach Preparation</h1>
+<p><strong>Кодовое слово:</strong> Вайбкодер-аутричер</p>
+<hr>
+
+<h2>Задача 5: LLM-стек</h2>
+<p><strong>IDE и модели:</strong> VS Code + Cursor (основная). Claude 3.5 Sonnet, GPT-4o, DeepSeek Coder V3.</p>
+<p><strong>Подписки:</strong> Cursor Pro $20, ChatGPT Plus $20, Claude Pro $20, Perplexity Pro $10, DeepSeek API ~$5, Gemini Advanced $10. Итого: ~$85/мес.</p>
+<p><strong>Методология сравнения моделей:</strong> 6 задач (парсинг, рефакторинг, SQL, Docker, поиск багов). Метрики: TTFR, количество попыток, % кода без изменений.</p>
+<p><strong>Тесты:</strong> Unit (85%), Integration (60%), E2E (20%). CI/CD: GitHub Actions, pre-commit хуки (ruff, mypy, pytest).</p>
+<p><strong>CI/CD проверки:</strong> Все тесты, линтер, typecheck, SonarQube, audit зависимостей.</p>
+<hr>
+
+<h2>Задача 4: Верификация тестовой базы</h2>
+<table border="1" cellpadding="4">
+<tr><th>#</th><th>Компания</th><th>Статус</th><th>Проблемы</th></tr>
+<tr><td>1</td><td>Mingwen Intelligent</td><td>✅</td><td>—</td></tr>
+<tr><td>2</td><td>HNC</td><td>✅</td><td>—</td></tr>
+<tr><td>3</td><td>Tengzhong Machinery</td><td>⚠️</td><td>Email не совпадает с доменом</td></tr>
+<tr><td>4</td><td>Tesid Equipment</td><td>⚠️</td><td>Название не соответствует сайту</td></tr>
+<tr><td>5</td><td>ТД Ункомтех</td><td>❌</td><td>Сайт не открывается</td></tr>
+<tr><td>6</td><td>JAT Cemented Carbide</td><td>⚠️</td><td>Указан не тот сайт</td></tr>
+<tr><td>7</td><td>Rogen Technologies</td><td>⚠️</td><td>Название не соответствует</td></tr>
+<tr><td>8</td><td>Искролайн</td><td>✅</td><td>—</td></tr>
+<tr><td>9</td><td>Jimmy CNC Tool</td><td>✅</td><td>—</td></tr>
+<tr><td>10</td><td>Ezhong Heavy Machinery</td><td>✅</td><td>—</td></tr>
+<tr><td>11</td><td>Shixinghong Precision</td><td>❌</td><td>Сайт не открывается, email бесплатный</td></tr>
+<tr><td>12</td><td>Internor Machinery</td><td>⚠️</td><td>Email не совпадает с доменом</td></tr>
+<tr><td>13</td><td>РИЦ Техносфера</td><td>✅</td><td>—</td></tr>
+<tr><td>14</td><td>Howfit Science</td><td>✅</td><td>—</td></tr>
+<tr><td>15</td><td>Fengyi Yinhu</td><td>❌</td><td>Сайт не открывается</td></tr>
+</table>
+<p><strong>Итого:</strong> 7 ✅ валидных, 5 ⚠️ с ошибками, 3 ❌ неверифицированы</p>
+<hr>
+
+<h2>Как импортировать</h2>
+
+<h3>Google Sheets (таблица с компаниями)</h3>
+<ol>
+<li>Открой <a href="https://sheets.new">sheets.new</a></li>
+<li>Файл → Импортировать → Загрузить → выбери <code>base_companies.csv</code></li>
+<li>Готово — 57 компаний с персонализацией</li>
+</ol>
+
+<h3>Google Docs (отчёт)</h3>
+<ol>
+<li>Открой <a href="https://docs.new">docs.new</a></li>
+<li>Файл → Открыть → Загрузить → выбери этот HTML-файл (<code>google_docs_import.html</code>)</li>
+<li>Или просто открой HTML в браузере, Ctrl+A, Ctrl+C, вставь в Google Docs</li>
+</ol>
+
+<h3>Цепочки писем — Лист 3</h3>
+<p>Создай новый лист в той же Google Таблице, открой <code>email_sequences.csv</code> и скопируй содержимое.</p>
+<hr>
+
+<p><a href="https://github.com/Siesta22121/polza-agency-outreach">Ссылка на GitHub</a></p>
+</body></html>
